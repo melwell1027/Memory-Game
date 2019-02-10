@@ -1,0 +1,34 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.inner-container {
+  height: 50px;
+  flex-grow: 1;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  font-size: 20pt;
+  font-weight: bolder;
+  background-color: purple;
+}
+.tile {
+  border: 5px solid violet;
+  height: 150px;
+  width: 150px;
+  background-color: gray;
+  margin: 10pt;
+  float: left
+}
+
+.tile:hover{
+  cursor: pointer;
+  transform: scale(1.1)
+}
+
+.game-board {
+  width: 70%;
+  margin: auto;
+  margin-top: 50px;
+}
