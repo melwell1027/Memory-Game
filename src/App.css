@@ -3,7 +3,7 @@
   flex-direction: column;
 }
 .inner-container {
-  height: 50px;
+  height: 60px;
   flex-grow: 1;
   display: flex;
   justify-content: space-around;
@@ -11,15 +11,19 @@
   color: white;
   font-size: 20pt;
   font-weight: bolder;
-  background-color: purple;
+  background-color: #66101F;
+  border-bottom: 3px solid #855A5C;
+  box-shadow:0 0 8px #30292F;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 30px;
 }
 .tile {
-  border: 5px solid violet;
+  border: 3px solid #855A5C;
   height: 150px;
   width: 150px;
-  background-color: gray;
-  margin: 10pt;
-  float: left
+  margin: 12pt;
+  float: left;
+  box-shadow:0 0 8px #30292F;
 }
 
 .tile:hover{
@@ -31,4 +35,14 @@
   width: 70%;
   margin: auto;
   margin-top: 50px;
+}
+
+img {
+  height: 150px;
+  width: 150px;
+}
+
+body {
+  background-image: url("./photos/wallpaper.jpg");
+  background-size: 120%;
 }

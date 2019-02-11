@@ -1,19 +1,18 @@
 const tiles = [
-    { id: 0, val: "a" },
-    { id: 1, val: "b" },
-    { id: 2, val: "c" },
-    { id: 3, val: "d" },
-    { id: 4, val: "e" },
-    { id: 5, val: "f" },
-    { id: 6, val: "g" },
-    { id: 7, val: "h" },
-    { id: 8, val: "i" },
-    { id: 9, val: "j" },
-    { id: 10, val: "k" },
-    { id: 11, val: "l" },
-    { id: 12, val: "m" },
-    { id: 13, val: "n" },
-    { id: 14, val: "o" }
+    { id: 0, image: "arya.jpg" },
+    { id: 1, image: "bran.jpg" },
+    { id: 2, image: "cersei.jpg" },
+    { id: 3, image: "dany.jpg" },
+    { id: 4, image: "jaime.jpg" },
+    { id: 5, image: "jonsnow.jpg" },
+    { id: 6, image: "jorah.jpg" },
+    { id: 7, image: "littlefinger.jpg" },
+    { id: 8, image: "nightking.jpg" },
+    { id: 9, image: "oberyn.jpg" },
+    { id: 10, image: "olenna.jpg" },
+    { id: 11, image: "ramsay.jpg" },
+    { id: 12, image: "sansa.jpg" },
+    { id: 13, image: "theon.jpg" },
+    { id: 14, image: "tyrion.jpg" }
 ];
-
 export default tiles;

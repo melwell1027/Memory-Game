@@ -46,7 +46,7 @@ class App extends Component {
           message={this.state.message}
         />
         <div className="game-board">
-          {this.state.tiles.map((tile, i) => <Tile key={i} id={tile.id} handleTileClick={this.handleTileClick} char={tile.val} />)}
+          {this.state.tiles.map((tile, i) => <Tile key={i} id={tile.id} handleTileClick={this.handleTileClick} image={tile.image} />)}
         </div>
       </div>
     );
